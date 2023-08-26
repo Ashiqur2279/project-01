@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    /* width: 1600px;
+    height: 808px; */ 
+    /* according to figma size */
+}
+.heading_content{
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 60%;
+    padding-top: 15%;
+}
+.heading_content h1{
+   font-size: 50px;
+   margin-bottom: 1.5rem;
+}
+
+.heading_content p{
+    /* width: 495px; */
+    /* height: 80px; */
+    /* according to figma size */
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+.heading_content button{
+    width: 160px;
+    height: 65px;
+    background-color: #f15b22;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
