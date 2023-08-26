@@ -38,3 +38,37 @@
     border: none;
     font-size: 20px;
 }
+
+/* main content */
+
+.main_content{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10rem;
+    gap: 5rem;
+}
+.main_sub_content h1{
+    font-size: 50px;
+}
+.main_sub_content p{
+    color: grey;
+}
+.main_text{
+    font-size: 16px;
+    margin-top: .85rem;
+}
+
+.list_item{
+    display: flex;
+    margin-top: .75rem;
+    align-items: center;
+}
+.list_item i{
+    color: green;
+    margin-right: .5rem;
+    font-weight: bolder;
+}
