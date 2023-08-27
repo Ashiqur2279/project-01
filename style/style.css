@@ -29,7 +29,7 @@
     font-size: 16px;
     margin-bottom: 1.5rem;
 }
-.heading_content button{
+.button{
     width: 160px;
     height: 65px;
     background-color: #f15b22;
@@ -37,7 +37,14 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
-    margin-bottom: 10rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#button_1{
+    /* margin-bottom: 10rem; */
+    padding-bottom: 10rem;
 }
 
 /* main content */
@@ -83,6 +90,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2.5rem;
+    text-decoration: underline;
 }
 /* .plans{
     margin-right: 5rem;
@@ -101,7 +109,7 @@
     align-items: center;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 
 .plan_content {
@@ -110,3 +118,69 @@
 .plan_content p{
     color: grey;
 }
+
+/* positive_mindset */
+
+.positive_mindset{
+    position: relative;
+    background-image: url('../images/watch.png');
+    height: 300px;
+    background-size: cover;
+    margin: 0rem 5rem 5rem;
+    border-radius: 10px;
+}
+.overlay_img{
+    position: absolute;
+    /* display: inline-block; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay_head{
+    position: absolute;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 60%;
+    /* top: 25%; */
+    /* left: 25%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 1; */
+}
+.overlay_head h1{
+    margin-bottom: 1.5rem;
+}
+
+#button_2{
+    background-color: white;
+    color: #f15b22;
+    font-weight: bold;
+}
+
+/* test */
+
+/* .image_container{
+    position: relative;
+    display: inline-block;
+}
+.overlay_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.overlay_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.overlay_content h1{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+} */
