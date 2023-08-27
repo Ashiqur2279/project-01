@@ -15,7 +15,7 @@
     text-align: right;
     margin-right: 10%;
     margin-left: 60%;
-    padding-top: 15%;
+    padding-top: 10rem;
 }
 .heading_content h1{
    font-size: 50px;
@@ -37,6 +37,7 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    margin-bottom: 10rem;
 }
 
 /* main content */
@@ -71,4 +72,41 @@
     color: green;
     margin-right: .5rem;
     font-weight: bolder;
+}
+
+/* my plans  */
+.my_plan{
+    /* display: flex; */
+    justify-content: center;
+}
+.plan_head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+/* .plans{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.plan_content{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+} */
+
+.plans {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 10rem;
+}
+
+.plan_content {
+    text-align: center;
+}
+.plan_content p{
+    color: grey;
 }
